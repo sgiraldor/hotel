@@ -26,4 +26,7 @@ export class Huesped {
   
   @Column({type: 'date'})
   fecha_nacimiento!: Date;
+
+  @Column()
+  nacionalñlidad!: string;
 }
